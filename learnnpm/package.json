@@ -1,0 +1,19 @@
+{
+  "name": "@testnpm/learnnpm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "url(/home/trainee9/Desktop/learnnpm)"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "this is for testing",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.3"
+  },
+  "devDependencies": {}
+}
