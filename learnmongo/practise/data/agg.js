@@ -14,7 +14,7 @@ mongo.connect(url, function (err, db) {
     collection.aggregate([
         { $match: { size : sizeValue }}
       , { $group: {
-          _id: 'total' // This can be an arbitrary string in this case
+          _id: 'total' // this can be an arbitrary string in this case
         , total: {
             // $sum is the operator used here
             $avg: '$price'
